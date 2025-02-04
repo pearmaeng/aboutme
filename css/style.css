@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+html {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    background-color: #EDEBE8;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #588962;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: normal;
+}
+
+h1 {
+    color: #3C6148 ;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    height: 20vh;
+    background-image: url(../img/pear-bg.png);
+    background-size: 30%;
+    background-attachment: fixed;
+}
+
+/* Nav */
+nav {
+    height: 40px;
+    background-color: #E0887E;
+    border-top: 1px solid #588962;
+    border-bottom: 1px solid #588962;
+    position: sticky;
+    top: 0;
+}
+
+nav ol {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+}
+
+nav ol li a {
+    font-size: 1em;
+    color: #EDEBE8;
+}
+
+nav ol li a:hover{
+    color: #a7332f;
+    font-weight: bold;
+    transition: .3s all ease;
+}
+
+/* Main */
+main {
+    width: 90%;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #EDEBE8;
+}
+
+main hr {
+    border: 1px solid #E0887E;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+/* Main - Greeting */
+main #greeting {
+    padding-top: 5vh;
+    font-family: "Nunito", sans-serif;
+
+}
+
+main #greeting h1 {
+    font-size: 8em;
+}
+
+main #greeting #welcome {
+    color: #E0887E;
+    font-weight: 400;
+    padding-top: 30px;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+main #greeting #welcome b {
+    color: #A8C788;
+}
+
+/* Main - About - Profile */
+.profile-img {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.profile-img div img {
+    transition: 500ms all ease;
+    border-radius: 50%;
+}
+
+.profile-img div img:hover {
+    border-radius: 30px;
+}
+
+.profile-img p {
+    color: #E0887E;
+}
+
+/* Main - About1 */
+.about1 h3 {
+    font-size: 1.5em;
+}
+
+.about1 h3 b {
+    color: #E0887E;
+}
+
+.about1 p {
+    font-size: 1.2em;
+}
+
+.about1 h5 {
+    font-weight: normal;
+    color: #A8C788;
+}
+
+.about2 button {
+    background-color: #A8C788;
+    color: #3C6148;
+    padding: 5px 50px 5px 50px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1em;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.about2 button:hover {
+    background-color: #E0887E;
+    color: #EDEBE8;
+    box-shadow: 2px 2px 3px 1px #b4b1ac;
+}
+
+#about-changetext {
+    padding-top: 3vh;
+    line-height: 1.5em;
+}
+
+
+/* Main - Pet */
+#pet .pet-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-area: 1fr 1fr;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#pet .pet-grid p {
+    text-align: center;
+    padding: 0;
+    color: #E0887E;
+}
+
+#pet .pet-grid div img {
+    transition: 300ms all ease-in;
+    border-radius: 2px;
+}
+
+#pet .pet-grid div img:hover {
+    box-shadow: 0px 2px 3px 0px #5f5f5f;
+    border-radius: 30px;
+}
+
+#pet a {
+    color: #E0887E;
+}
+
+#pet a:hover {
+    color: #A8C788;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0px 10px 0px;
+    background-color: #E0887E;
+    color: #EDEBE8;
+    border-top: 1px solid #588962;
+    align-self: center;
+}
+
+footer .social img {
+    padding: 0px 5px 0px 5px;
+}
+
+footer .credit h6 {
+    font-weight: normal;
+}
+
+footer .credit b {
+    color: #B35450;
+    font-weight: bolder;
+}
+
+
+
+ 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About PEAR🍐</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#pet">PET</a></li>
+        </ol>
+    </nav>
+
+    <main>
+        <section id="greeting">
+            <h1 id="change-color">Hi!</h1>
+            <p id="welcome"></p> 
+        </section>
+
+        <section id="about">
+
+            <div class="profile-img">
+                <div><img src="img/pear.png" alt="pear" onmouseover="profileChange()" onmouseout="profileReturn()" id="profile"></div>
+                <div><p id="profileText"></p></div>
+            </div>
+
+            <div class="about1">
+                <h3>I'm  <b>PEAR🍐</b></h3>
+                <p>
+                    It's a short for Pawara Prapawuttikul, which is my full name.
+                </p>
+                <h5>Click a button below to read more about me :)</h5>
+            </div>
+
+            <br>
+
+            <div class="about2">
+                <button onclick="myBackground()">My Background🤓</button>
+                <button onclick="loveThings()">Things I Love💓</button>
+                <button onclick="hobbies()">My Hobbies💫</button>
+                <p id="about-changetext">• • •</p>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="pet">
+
+            <h1>🐶 PET 🐶</h1>
+
+            <div class="pet-grid">
+
+                <div><img src="img/dog-putin1.png" alt="dog" onmouseover="dogChange1()" onmouseout="dogReturn1()" id="dog1"></div>
+                <div><img src="img/dog-putin2.png" alt="dog" onmouseover="dogChange2()" onmouseout="dogReturn2()" id="dog2"></div>
+                <div><img src="img/dog-putin3.png" alt="dog" onmouseover="dogChange3()" onmouseout="dogReturn3()" id="dog3"></div>
+                <div><img src="img/dog-putin4.png" alt="dog" onmouseover="dogChange4()" onmouseout="dogReturn4()" id="dog4"></div>
+                <div><img src="img/dog-putin5.png" alt="dog" onmouseover="dogChange5()" onmouseout="dogReturn5()" id="dog5"></div>
+
+                <div><p id="dogText1"></p></div>
+                <div><p id="dogText2"></p></div>
+                <div><p id="dogText3"></p></div>
+                <div><p id="dogText4"></p></div>
+                <div><p id="dogText5"></p></div>
+
+            </div>
+
+            <h3>His name is</h3>
+            <a href="https://www.instagram.com/putin_the_collie/"><h2>P U T I N</h2></a>
+            <p>
+                <b>PUTIN</b>, a friendly and energetic 7-year-old Border Collie originally from Russia, was born on January 16, 2018. 
+                With his endless energy and playful spirit, he loves running through fields chasing birds, soaking in water, 
+                and greeting everyone he meets. He enjoys being petted and has a sweet tooth for ice cream and frozen treats, especially ice.🧊
+            </p>
+            
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="mailto:pawara.ppp@gmail.com"><img src="img/icon-email.png" alt="email"></a>
+            <a href="https://www.linkedin.com/in/pearprapawuttikul/"><img src="img/icon-linkedin.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/pearmaeng/"><img src="img/icon-ig.png" alt="instagram"></a>
+        </div>
+
+        <div class="credit">
+            <h6><b>.PPP</b>
+            <br>This website is made by <i>PEAR Pawara Prapawuttikul</i>
+            <br>&copy;2025</h6>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
